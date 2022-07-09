@@ -1,0 +1,15 @@
+ul {
+  display: flex;
+  max-width: 800px;
+  justify-content: space-between;
+}
+li {
+  list-style-type: none;
+  cursor: pointer;
+}
+li:hover {
+  background: red;
+}
+.active {
+  background-color: blue;
+}

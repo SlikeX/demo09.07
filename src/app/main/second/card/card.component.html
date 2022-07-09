@@ -1,0 +1,12 @@
+<div class="wrapper">
+  <div *ngFor="let card of cardList | async" class="container">
+    <h3 class="title">{{card.title}}</h3>
+    <div class="color-container">
+      <div class="color-title">{{card.colorTitle}}</div>
+      <div class="color-color" [style.background]="card.color"></div>
+    </div>
+    <div class="group">{{card.group}}</div>
+    <div class="shape">{{card.shape}}</div>
+  </div>
+</div>
+

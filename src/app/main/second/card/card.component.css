@@ -1,0 +1,25 @@
+.wrapper {
+  max-width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px 100px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid red;
+  border-radius: 5px;
+  max-width: 200px;
+}
+.color-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.color-color {
+  width: 50px;
+  height: 50px;
+  /* background-color: red; */
+  margin-left: 15px;
+}
